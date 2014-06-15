@@ -60,4 +60,7 @@ github "xquartz",     "1.1.1"
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
 github "iterm2",	"1.1.1"
+github "zsh",		"1.0.0"
+github "zshgitprompt",	"1.0.0"
+github "autojump",	"1.0.0"
 
