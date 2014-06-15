@@ -96,5 +96,5 @@ node default {
   include zsh
   #include zshgitprompt
   include autojump
-
+  include java
 }

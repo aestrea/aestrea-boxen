@@ -65,4 +65,5 @@ github "osx",		"2.7.0"
 github "zsh",		"1.0.0"
 github "zshgitprompt",	"1.0.0"
 github "autojump",	"1.0.0"
+github "java",		"1.5.0"
 
