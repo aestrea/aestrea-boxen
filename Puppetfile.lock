@@ -4,6 +4,11 @@ GITHUBTARBALL
     gvm (1.0.1)
 
 GITHUBTARBALL
+  remote: boxen/puppet-atom
+  specs:
+    atom (1.0.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-autojump
   specs:
     autojump (1.0.0)
@@ -149,6 +154,7 @@ GITHUBTARBALL
     module-data (0.0.3)
 
 DEPENDENCIES
+  atom (= 1.0.0)
   autojump (= 1.0.0)
   boxen (= 3.6.1)
   chrome (= 1.1.2)

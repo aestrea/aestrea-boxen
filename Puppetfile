@@ -61,18 +61,21 @@ github "xquartz",     "1.1.1"
 # https://github.com/boxen.
 
 # BROWSER
-github "chrome",	"1.1.2"
+github "chrome",      "1.1.2"
 
 # ENV
-github "iterm2",	"1.1.1"
-github "osx",		"2.7.0"
-github "zsh",		"1.0.0"
-github "zshgitprompt",	"1.0.0"
-github "autojump",	"1.0.0"
-github "java",		"1.5.0"
-github "mysql",		"1.2.0"
-github "gvm",		"1.0.1", :repo => "Spantree/puppet-gvm"
+github "iterm2",      "1.1.1"
+github "osx",         "2.7.0"
+github "zsh",         "1.0.0"
+github "zshgitprompt","1.0.0"
+github "autojump",    "1.0.0"
+github "java",        "1.5.0"
+github "mysql",       "1.2.0"
+github "gvm",         "1.0.1", :repo => "Spantree/puppet-gvm"
 
 # IDE
-github "intellij",	"1.5.1", :repo => "dieterdemeyer/puppet-intellij"
-github "atom",		"1.0.0"
+github "intellij",    "1.5.1", :repo => "dieterdemeyer/puppet-intellij"
+github "atom",        "1.0.0"
+
+# MUSIC
+github "spotify",     "1.0.1"

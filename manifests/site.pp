@@ -103,9 +103,9 @@ node default {
 	default => true
   }
   #include gvm::grails {'2.2.4':}
-
 	class { 'intellij':
 		edition => 'ultimate',
 		version => '13.1.3'
 	}
+  include spotify
 }
