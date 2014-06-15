@@ -68,3 +68,5 @@ github "autojump",	"1.0.0"
 github "java",		"1.5.0"
 github "mysql",		"1.2.0"
 github "gvm",		"1.0.1", :repo => "Spantree/puppet-gvm"
+github "intellij",	"1.5.1", :repo => "dieterdemeyer/puppet-intellij"
+
