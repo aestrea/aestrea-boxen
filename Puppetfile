@@ -78,4 +78,5 @@ github "intellij",    "1.5.1", :repo => "dieterdemeyer/puppet-intellij"
 github "atom",        "1.0.0"
 
 # MUSIC
-github "spotify",     "1.0.1"
+#not working
+#github "spotify",     "1.0.1"
