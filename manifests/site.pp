@@ -94,7 +94,7 @@ node default {
   include iterm2::dev
   include iterm2::colors::solarized_dark
   include zsh
-  include zshgitprompt
+  #include zshgitprompt
   include autojump
 
 }
