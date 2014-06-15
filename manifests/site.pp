@@ -97,4 +97,9 @@ node default {
   #include zshgitprompt
   include autojump
   include java
+  include gvm
+  include gvm::groovy {'2.3.1':}
+  include gvm::grails {'2.3.7': default => true }
+  #include gvm::grails {'2.2.4':}
+
 }
