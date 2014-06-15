@@ -41,10 +41,11 @@ class people::bryanchug {
 	include osx::global::natural_mouse_scrolling
 	#todo -- add 3-finger drag
 
+	#not working
 	boxen::osx_defaults { 'Three-Finger Drag':
     ensure => present,
     domain => 'NSGlobalDomain',
-    key    => 'com.apple.trackpad.threeFingerSwipeGesture',
+    key    => 'com.apple.trackpad.threeFingerDragGesture',
     value  => 1,
     type   => int,
     user   => $::boxen_user;
