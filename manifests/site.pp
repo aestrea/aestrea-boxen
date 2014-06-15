@@ -90,6 +90,7 @@ node default {
   }
 
   # custom includes
+  include chrome
   include iterm2::dev
   include iterm2::colors::solarized_dark
   include zsh
