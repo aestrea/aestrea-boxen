@@ -88,4 +88,9 @@ node default {
     ensure => link,
     target => $boxen::config::repodir
   }
+
+  # custom includes
+  include iterm2::dev
+  include iterm2::colors::solarized_dark
+
 }
