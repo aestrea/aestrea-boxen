@@ -1,5 +1,7 @@
 class people::bryanchug {
 
+  include projects::rocketmiles
+
 	include git
 	git::config::global { 'user.email':
 	  value  => 'bryan.chug@gmail.com'
@@ -7,6 +9,27 @@ class people::bryanchug {
 	git::config::global { 'user.name':
 	  value  => 'Bryan Chug'
 	}
+
+
+	$home     = "/Users/${::boxen_user}"
+  $my       = "${home}/my"
+  $dotfiles = "${my}/dotfiles"
+
+  file { $my:
+    ensure  => directory
+  }
+
+  repository { $dotfiles:
+    source  => 'bryanchug/dotfiles',
+    require => File[$my]
+  }
+
+	exec { "install":
+    cwd => $dotfiles,
+    command => "rake --verbose install",
+    require => Repository[$dotfiles]
+  }
+
 
 	include atom
 
