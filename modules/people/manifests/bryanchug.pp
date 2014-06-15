@@ -8,6 +8,8 @@ class people::bryanchug {
 	  value  => 'Bryan Chug'
 	}
 
+	include atom
+
 }
 
 
