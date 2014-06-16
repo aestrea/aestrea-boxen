@@ -80,9 +80,13 @@ github "java",        "1.5.0"
 github "mysql",       "1.2.0"
 github "gvm",         "1.0.1", :repo => "Spantree/puppet-gvm"
 
+# DRIVE
+github "googledrive", "1.0.2"
+
 # IDE
 github "intellij",    "1.5.1", :repo => "dieterdemeyer/puppet-intellij"
 github "atom",        "1.0.0"
+github "visualvm",    "1.3.6", :repo => "loyal3/puppet-visualvm"
 
 # MUSIC
 #not working

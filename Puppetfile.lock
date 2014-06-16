@@ -54,6 +54,11 @@ GITHUBTARBALL
     go (1.1.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-googledrive
+  specs:
+    googledrive (1.0.2)
+
+GITHUBTARBALL
   remote: boxen/puppet-harvest
   specs:
     harvest (1.0.2)
@@ -144,6 +149,11 @@ GITHUBTARBALL
     intellij (1.5.1)
 
 GITHUBTARBALL
+  remote: loyal3/puppet-visualvm
+  specs:
+    visualvm (1.3.6)
+
+GITHUBTARBALL
   remote: puppetlabs/puppetlabs-inifile
   specs:
     inifile (1.0.3)
@@ -169,6 +179,7 @@ DEPENDENCIES
   gcc (= 2.0.101)
   git (= 2.4.0)
   go (= 1.1.0)
+  googledrive (= 1.0.2)
   gvm (= 1.0.1)
   harvest (= 1.0.2)
   homebrew (= 1.9.3)
@@ -189,6 +200,7 @@ DEPENDENCIES
   ruby (= 8.0.4)
   stdlib (= 4.2.1)
   sudo (= 1.0.0)
+  visualvm (= 1.3.6)
   xquartz (= 1.1.1)
   zsh (= 1.0.0)
 

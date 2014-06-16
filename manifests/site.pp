@@ -111,4 +111,6 @@ node default {
 	}
   #include spotify
   include better_touch_tools
+  include googledrive
+
 }
