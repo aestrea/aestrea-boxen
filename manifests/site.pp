@@ -110,4 +110,5 @@ node default {
 		version => '13.1.3'
 	}
   #include spotify
+  include better_touch_tools
 }
