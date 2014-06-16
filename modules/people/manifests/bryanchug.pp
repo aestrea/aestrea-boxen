@@ -1,6 +1,7 @@
 class people::bryanchug {
 
   include projects::rocketmiles
+  include harvest
 
 	include git
 	git::config::global { 'user.email':
@@ -24,9 +25,9 @@ class people::bryanchug {
     require => File[$my]
   }
 
-	exec { "install":
+	exec { "install-dotfiles":
     cwd => $dotfiles,
-    command => "rake --verbose install",
+    command => "rake install",
     require => Repository[$dotfiles]
   }
 

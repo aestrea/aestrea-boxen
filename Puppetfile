@@ -67,6 +67,9 @@ github "chrome",      "1.1.2"
 github "osx",         "2.7.0"
 github "better_touch_tools",  "1.0.0"
 
+# TIME TRACKING
+github "harvest",     "1.0.2"
+
 # ENV
 github "iterm2",      "1.1.1"
 github "zsh",         "1.0.0"
