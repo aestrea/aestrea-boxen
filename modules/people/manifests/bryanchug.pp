@@ -12,26 +12,24 @@ class people::bryanchug {
 	  value  => 'Bryan Chug'
 	}
 
-
 	$home     = "/Users/${::boxen_user}"
   $my       = "${home}/my"
   $dotfiles = "${my}/dotfiles"
+  $sanctum  = "${my}/sanctum"
 
   file { $my:
     ensure  => directory
+  }
+
+  repository { $sanctum:
+    source  => 'bryanchug/sanctum',
+    require => File[$my]
   }
 
   repository { $dotfiles:
     source  => 'bryanchug/dotfiles',
     require => File[$my]
   }
-
-	exec { "install-dotfiles":
-    cwd => $dotfiles,
-    command => "rake install",
-    require => Repository[$dotfiles]
-  }
-
 
 	include atom
 
