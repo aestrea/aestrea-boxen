@@ -2,6 +2,7 @@ class people::bryanchug {
 
   include projects::rocketmiles
   include harvest
+  include sketch
 
 	include git
 	git::config::global { 'user.email':
