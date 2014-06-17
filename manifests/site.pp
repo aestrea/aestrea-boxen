@@ -113,4 +113,5 @@ node default {
   include better_touch_tools
   include googledrive
 
+  include osx::disable_app_quarantine
 }
