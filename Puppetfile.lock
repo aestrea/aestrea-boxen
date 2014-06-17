@@ -14,11 +14,6 @@ GITHUBTARBALL
     autojump (1.0.0)
 
 GITHUBTARBALL
-  remote: boxen/puppet-better_touch_tools
-  specs:
-    better_touch_tools (1.0.0)
-
-GITHUBTARBALL
   remote: boxen/puppet-boxen
   specs:
     boxen (3.6.1)
@@ -144,6 +139,11 @@ GITHUBTARBALL
     zsh (1.0.0)
 
 GITHUBTARBALL
+  remote: bryanchug/puppet-better_touch_tools
+  specs:
+    better_touch_tools (1.0.1)
+
+GITHUBTARBALL
   remote: dieterdemeyer/puppet-intellij
   specs:
     intellij (1.5.1)
@@ -176,7 +176,7 @@ GITHUBTARBALL
 DEPENDENCIES
   atom (= 1.0.0)
   autojump (= 1.0.0)
-  better_touch_tools (= 1.0.0)
+  better_touch_tools (= 1.0.1)
   boxen (= 3.6.1)
   chrome (= 1.1.2)
   dnsmasq (= 1.0.1)

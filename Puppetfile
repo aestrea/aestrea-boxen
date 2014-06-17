@@ -65,7 +65,7 @@ github "chrome",      "1.1.2"
 
 # MAC
 github "osx",         "2.7.0"
-github "better_touch_tools",  "1.0.0"
+github "better_touch_tools",  "1.0.1", :repo => "bryanchug/puppet-better_touch_tools"
 
 # TIME TRACKING
 github "harvest",     "1.0.2"
