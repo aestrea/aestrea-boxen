@@ -77,7 +77,7 @@ github "zsh",         "1.0.0"
 #github "zshgitprompt","1.0.0"
 github "autojump",    "1.0.0"
 github "java",        "1.5.0"
-github "mysql",       "1.2.0"
+github "mysql",       "1.2.4", :repo => "bryanchug/puppet-mysql"
 github "gvm",         "1.0.1", :repo => "Spantree/puppet-gvm"
 
 # DRIVE
