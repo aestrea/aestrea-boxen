@@ -114,4 +114,6 @@ node default {
   include googledrive
 
   include osx::disable_app_quarantine
+
+  include wget
 }

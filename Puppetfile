@@ -91,6 +91,9 @@ github "visualvm",    "1.3.6", :repo => "loyal3/puppet-visualvm"
 # DESIGN
 github "sketch",      "1.0.0", :repo => "goodtwin/puppet-sketch"
 
+# TERMINAL UTILS
+github "wget",        "1.0.1"
+
 # MUSIC
 #not working
 #github "spotify",     "1.0.1"
