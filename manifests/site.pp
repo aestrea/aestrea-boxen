@@ -123,4 +123,6 @@ node default {
   package { 'watch': }
   package { 'w3m': }
 
+  # Media
+  include vlc
 }

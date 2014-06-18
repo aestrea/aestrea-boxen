@@ -95,6 +95,9 @@ github "sketch",      "1.0.0", :repo => "goodtwin/puppet-sketch"
 # TERMINAL UTILS
 github "wget",        "1.0.1"
 
+# MEDIA
+github "vlc",         "1.1.0"
+
 # MUSIC
 #not working
 #github "spotify",     "1.0.1"
