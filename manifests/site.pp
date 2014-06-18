@@ -116,4 +116,10 @@ node default {
   include osx::disable_app_quarantine
 
   include wget
+
+  # Homebrew installs
+  include homebrew
+  package { 'watch': }
+  package { 'w3m': }
+
 }
