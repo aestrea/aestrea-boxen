@@ -141,7 +141,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: bryanchug/puppet-better_touch_tools
   specs:
-    better_touch_tools (1.0.1)
+    better_touch_tools (1.0.2)
 
 GITHUBTARBALL
   remote: bryanchug/puppet-mysql
@@ -181,7 +181,7 @@ GITHUBTARBALL
 DEPENDENCIES
   atom (= 1.0.0)
   autojump (= 1.0.0)
-  better_touch_tools (= 1.0.1)
+  better_touch_tools (= 1.0.2)
   boxen (= 3.6.1)
   chrome (= 1.1.2)
   dnsmasq (= 1.0.1)
