@@ -62,6 +62,7 @@ github "xquartz",     "1.1.1"
 
 # BROWSER
 github "chrome",      "1.1.2"
+github "firefox",     "1.2.1"
 
 # MAC
 github "osx",         "2.7.0"
