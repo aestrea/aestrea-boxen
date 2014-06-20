@@ -70,6 +70,7 @@ github "better_touch_tools",  "1.0.2", :repo => "bryanchug/puppet-better_touch_t
 
 # TIME TRACKING
 github "harvest",     "1.0.2"
+github "toggl",       "1.0.5"
 
 # ENV
 github "iterm2",      "1.1.1"

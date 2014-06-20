@@ -2,6 +2,7 @@ class people::bryanchug {
 
   include projects::rocketmiles
   include harvest
+  include toggl
   include sketch
 
 	include git
