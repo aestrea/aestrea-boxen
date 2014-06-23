@@ -9,8 +9,17 @@ class projects::rocketmiles {
 		source => 'rocketmiles/rocketmiles-email'
 	}
 
+  nodejs::module { 'bower':
+    node_version => 'v0.10'
+  }
+
+  nodejs::module { 'grunt-cli':
+    node_version => 'v0.10'
+  }
+
 	boxen::project{ 'rocketmiles-web':
 		source => 'rocketmiles/rocketmiles-web'
 	}
+
 
 }
