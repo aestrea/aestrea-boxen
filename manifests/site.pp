@@ -125,4 +125,7 @@ node default {
 
   # Media
   include vlc
+
+  # Dev
+  include github_for_mac
 }
