@@ -75,4 +75,7 @@ class people::bryanchug {
     user   => $::boxen_user;
   }
 
+  include homebrew
+  package{ 'ansible': }
+
 }
