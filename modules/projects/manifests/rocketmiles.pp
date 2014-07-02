@@ -21,5 +21,10 @@ class projects::rocketmiles {
 		source => 'rocketmiles/rocketmiles-web'
 	}
 
+  include homebrew
+  package{
+    'redis':
+      ensure => '2.8.9'
+  }
 
 }
