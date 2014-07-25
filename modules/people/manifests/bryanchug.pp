@@ -78,4 +78,6 @@ class people::bryanchug {
   include homebrew
   package{ 'ansible': }
 
+  include minecraft
+
 }

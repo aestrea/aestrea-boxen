@@ -103,3 +103,6 @@ github "vlc",         "1.1.0"
 # MUSIC
 #not working
 #github "spotify",     "1.0.1"
+
+# GAMES
+github "minecraft",    "1.0.2"
