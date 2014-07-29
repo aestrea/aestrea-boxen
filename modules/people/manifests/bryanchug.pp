@@ -79,5 +79,5 @@ class people::bryanchug {
   package{ 'ansible': }
 
   include minecraft
-
+  include steam
 }

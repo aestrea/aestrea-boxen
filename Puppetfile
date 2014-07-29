@@ -106,3 +106,4 @@ github "vlc",         "1.1.0"
 
 # GAMES
 github "minecraft",    "1.0.2"
+github "steam",        "1.0.1"
