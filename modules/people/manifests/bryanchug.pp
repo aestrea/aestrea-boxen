@@ -52,7 +52,7 @@ class people::bryanchug {
 	include osx::finder::show_mounted_servers_on_desktop
 	include osx::finder::show_removable_media_on_desktop
 	include osx::finder::unhide_library
-	include osx::finder::show_hidden_files
+  #include osx::finder::show_hidden_files
 	include osx::finder::enable_quicklook_text_selection
 
 	#osx Universal Access
