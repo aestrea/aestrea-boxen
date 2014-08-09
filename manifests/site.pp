@@ -115,6 +115,7 @@ node default {
   include googledrive
 
   include osx::disable_app_quarantine
+  include osx::screenshots
 
   include wget
 
@@ -128,4 +129,5 @@ node default {
 
   # Dev
   include github_for_mac
+
 }
