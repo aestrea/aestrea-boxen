@@ -1,6 +1,6 @@
 class projects::rocketmiles {
 
-  boxen::project{ 'noonu-app':
+  boxen::project{ 'rocketmiles':
 		source => 'khelenek/noonu-app'
 	}
 
