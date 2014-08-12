@@ -1,12 +1,8 @@
 class projects::rocketmiles {
 
-  boxen::project{ 'rocketmiles':
+  boxen::project{ 'noonu-app':
 		source => 'khelenek/noonu-app'
 	}
-
-  boxen::project{ 'rocketmiles-db':
-    mysql => 'noonu';
-  }
 
   boxen::project{ 'rocketmiles-email':
 		source => 'rocketmiles/rocketmiles-email'
