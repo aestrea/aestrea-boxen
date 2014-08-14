@@ -77,6 +77,7 @@ class people::bryanchug {
 
   include homebrew
   package{ 'ansible': }
+  package{ 'tomcat': }
 
   include minecraft
   include steam
