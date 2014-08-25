@@ -4,6 +4,7 @@ class projects::rocketmiles {
 		source => 'khelenek/noonu-app'
 	}
 
+  include mysql
   mysql::db{ 'noonu': }
 
   boxen::project{ 'rocketmiles-email':
