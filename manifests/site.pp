@@ -126,6 +126,7 @@ node default {
 
   # Media
   include vlc
+  include popcorntime
 
   # Dev
   include github_for_mac
