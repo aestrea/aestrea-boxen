@@ -99,7 +99,7 @@ github "wget",        "1.0.1"
 
 # MEDIA
 github "vlc",         "1.1.0"
-github "popcorntime", "0.3.2", :repo => "josanastrid/puppet-popcorntime"
+github "popcorntime", "1.0.0", :repo => "josanastrid/puppet-popcorntime"
 
 # MUSIC
 #not working
