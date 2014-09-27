@@ -61,7 +61,7 @@ github "xquartz",     "1.1.1"
 # https://github.com/boxen.
 
 # BROWSER
-github "chrome",      "1.1.2"
+github "chrome",      "1.2.0"
 github "firefox",     "1.2.1"
 
 # MAC

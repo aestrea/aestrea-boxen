@@ -21,7 +21,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-chrome
   specs:
-    chrome (1.1.2)
+    chrome (1.2.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-dnsmasq
@@ -218,7 +218,7 @@ DEPENDENCIES
   autojump (= 1.0.0)
   better_touch_tools (= 1.0.2)
   boxen (= 3.6.1)
-  chrome (= 1.1.2)
+  chrome (= 1.2.0)
   dnsmasq (= 1.0.1)
   firefox (= 1.2.1)
   foreman (= 1.2.0)
