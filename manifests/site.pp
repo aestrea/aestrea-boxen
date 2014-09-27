@@ -63,18 +63,6 @@ node default {
     fail('Please enable full disk encryption and try again')
   }
 
-  # node versions
-  include nodejs::v0_6
-  include nodejs::v0_8
-  include nodejs::v0_10
-
-  # default ruby versions
-  ruby::version { '1.9.3': }
-  ruby::version { '2.0.0': }
-  ruby::version { '2.1.0': }
-  ruby::version { '2.1.1': }
-  ruby::version { '2.1.2': }
-
   # common, useful packages
   package {
     [
@@ -90,7 +78,7 @@ node default {
   }
 
   # custom includes
-  include chrome
+  # include chrome
   include chrome::beta
   include firefox
   include iterm2::dev
@@ -99,18 +87,7 @@ node default {
   #include yadr
   #include zshgitprompt
   include autojump
-  include java
-  include gvm
-  gvm::groovy {'2.3.3': }
-  gvm::grails {'2.3.7': }
-  gvm::grails {'2.3.9':
-	default => true
-  }
-  #include gvm::grails {'2.2.4':}
-	class { 'intellij':
-		edition => 'ultimate',
-		version => '13.1.3'
-	}
+
   #include spotify
   include better_touch_tools
   include googledrive
@@ -120,16 +97,8 @@ node default {
 
   include wget
 
-  # Homebrew installs
-  include homebrew
-  package { 'watch': }
-  package { 'w3m': }
-
   # Media
   include vlc
   include popcorntime
-
-  # Dev
-  include github_for_mac
 
 }
