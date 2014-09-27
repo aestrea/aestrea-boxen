@@ -1,5 +1,12 @@
 class projects::rocketmiles {
 
+  include groups::dev
+  include groups::dev_grails
+  include groups::dev_node
+  include groups::dev_ruby
+
+  include sketch
+
   boxen::project{ 'rocketmiles':
 		source => 'khelenek/noonu-app'
 	}

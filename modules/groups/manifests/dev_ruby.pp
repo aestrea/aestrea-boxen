@@ -1,5 +1,7 @@
 class groups::dev_ruby {
 
+  include groups::dev
+
   # default ruby versions
   ruby::version { '1.9.3': }
   ruby::version { '2.0.0': }

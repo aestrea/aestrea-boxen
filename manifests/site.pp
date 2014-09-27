@@ -91,11 +91,9 @@ node default {
   #include spotify
   include better_touch_tools
   include googledrive
-
-  include osx::disable_app_quarantine
-  include osx::screenshots
-
   include wget
+
+  include projects::aestrea_osx
 
   # Media
   include vlc

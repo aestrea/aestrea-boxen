@@ -1,5 +1,7 @@
 class groups::dev_grails {
 
+  include groups::dev
+
   include java
   include gvm
   #gvm::groovy {'2.3.3': }
