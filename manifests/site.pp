@@ -97,6 +97,8 @@ node default {
 
   # Media
   include vlc
-  include popcorntime
+  class{ 'popcorntime':
+    version => '0.3.4'
+  }
 
 }
