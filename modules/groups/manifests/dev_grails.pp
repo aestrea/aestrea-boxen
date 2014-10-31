@@ -12,7 +12,7 @@ class groups::dev_grails {
 
   class { 'intellij':
     edition => 'ultimate',
-    version => '13.1.3'
+    version => '13.1.5'
   }
 
 }
