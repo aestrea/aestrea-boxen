@@ -19,6 +19,7 @@ class people::bryanchug {
   $my       = "${home}/my"
   $dotfiles = "${my}/dotfiles"
   $sanctum  = "${my}/sanctum"
+  $importants  = "${my}/importants"
 
   file { $my:
     ensure  => directory
@@ -31,6 +32,11 @@ class people::bryanchug {
 
   repository { $dotfiles:
     source  => 'bryanchug/dotfiles',
+    require => File[$my]
+  }
+
+  repository { $importants:
+    source  => 'bryanchug/importants',
     require => File[$my]
   }
 
