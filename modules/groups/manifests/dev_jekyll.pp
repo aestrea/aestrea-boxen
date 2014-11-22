@@ -1,4 +1,4 @@
-class groups::dev_ruby {
+class groups::dev_jekyll {
 
   include groups::dev_ruby
 
