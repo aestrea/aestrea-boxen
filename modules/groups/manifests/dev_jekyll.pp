@@ -10,4 +10,7 @@ class groups::dev_ruby {
     ruby_version => $version
   }
 
+  include homebrew
+  package { 'libiconv': }
+
 }
