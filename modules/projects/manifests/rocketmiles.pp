@@ -8,7 +8,7 @@ class projects::rocketmiles {
   include sketch
 
   boxen::project{ 'rocketmiles':
-		source => 'khelenek/noonu-app'
+		source => 'rocketmiles/rocketmiles-app'
 	}
 
   include mysql
