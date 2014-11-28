@@ -101,4 +101,6 @@ node default {
     version => '0.3.4'
   }
 
+  include dropbox
+
 }

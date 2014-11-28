@@ -108,3 +108,7 @@ github "popcorntime", "1.0.0", :repo => "josanastrid/puppet-popcorntime"
 # GAMES
 github "minecraft",    "1.0.2"
 github "steam",        "1.0.1"
+
+# FILE SHARING
+github "dropbox",       "1.4.1"
+
