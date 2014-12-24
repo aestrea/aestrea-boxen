@@ -1,6 +1,7 @@
 class people::josanastrid {
 
   include projects::rocketmiles
+  include projects::atrax
   include toggl
   include sketch
 	include git

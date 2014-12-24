@@ -2,7 +2,7 @@ class people::bryanchug {
 
   include projects::aestrea_osx
   include projects::rocketmiles
-  include projects::attrax
+  include projects::atrax
 
   #include harvest
   include toggl

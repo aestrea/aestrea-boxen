@@ -1,4 +1,4 @@
-class projects::attrax {
+class projects::atrax {
 
   include groups::dev_jekyll
   include groups::dev_grails

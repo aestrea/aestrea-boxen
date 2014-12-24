@@ -1,3 +1,0 @@
-class people::bingo123 {
-
-}
