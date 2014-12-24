@@ -62,7 +62,7 @@ github "xquartz",     "1.2.1"
 
 # BROWSER
 github "chrome",      "1.2.0"
-github "firefox",     "1.2.1"
+github "firefox",     "1.2.3"
 
 # MAC
 github "osx",         "2.7.2", :repo => "bryanchug/puppet-osx"
@@ -111,4 +111,3 @@ github "steam",        "1.0.1"
 
 # FILE SHARING
 github "dropbox",       "1.4.1"
-
