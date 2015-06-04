@@ -90,7 +90,7 @@ github "googledrive", "1.0.2"
 # IDE
 github "intellij",    "1.5.1", :repo => "dieterdemeyer/puppet-intellij"
 github "atom",        "1.0.0"
-github "visualvm",    "1.3.6", :repo => "loyal3/puppet-visualvm"
+#github "visualvm",    "1.3.6", :repo => "loyal3/puppet-visualvm"
 
 # DESIGN
 github "sketch",      "1.0.0", :repo => "goodtwin/puppet-sketch"
