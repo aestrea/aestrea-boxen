@@ -22,13 +22,11 @@ class projects::rocketmiles {
 		source => 'rocketmiles/rocketmiles-email'
 	}
 
-  include nodejs::v0_10
-
-  nodejs::module { 'bower':
+  npm_module { 'bower':
     node_version => 'v0.10'
   }
 
-  nodejs::module { 'grunt-cli':
+  npm_module { 'grunt-cli':
     node_version => 'v0.10'
   }
 
