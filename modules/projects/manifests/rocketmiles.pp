@@ -22,9 +22,7 @@ class projects::rocketmiles {
 		source => 'rocketmiles/rocketmiles-email'
 	}
 
-  include nodejs
-
-  nodejs::version { '0.10': }
+  include nodejs::v0_10
 
   nodejs::module { 'bower':
     node_version => 'v0.10'
