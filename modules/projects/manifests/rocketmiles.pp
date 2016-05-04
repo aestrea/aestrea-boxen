@@ -23,11 +23,11 @@ class projects::rocketmiles {
 	}
 
   npm_module { 'bower':
-    node_version => 'v4.3.0'
+    node_version => '4.3.0'
   }
 
   npm_module { 'grunt-cli':
-    node_version => 'v4.3.0'
+    node_version => '4.3.0'
   }
 
 	boxen::project{ 'rocketmiles-web':
