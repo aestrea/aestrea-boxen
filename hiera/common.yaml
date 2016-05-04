@@ -1,2 +1,4 @@
 java::update_version: 51
 
+"nodejs::build::ensure": "v2.2.9"
+"nodejs::nodenv::ensure": "v1.0.0"
