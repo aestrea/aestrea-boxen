@@ -106,7 +106,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-mysql
   specs:
-    mysql (2.1.2)
+    mysql (2.2.2)
 
 GITHUBTARBALL
   remote: boxen/puppet-nginx
@@ -244,7 +244,7 @@ DEPENDENCIES
   java (= 1.7.1)
   minecraft (= 1.0.2)
   module_data (= 0.0.4)
-  mysql (= 2.1.2)
+  mysql (= 2.2.2)
   nginx (= 1.6.0)
   nodejs (= 5.0.0)
   openssl (= 1.0.0)

@@ -108,10 +108,5 @@ node default {
 
   # Media
   include vlc
-  class{ 'popcorntime':
-    version => '0.3.5'
-  }
-
-  include dropbox
 
 }
