@@ -23,16 +23,20 @@ class projects::rocketmiles {
 	}
 
   npm_module { 'bower':
-    node_version => 'v0.10'
+    node_version => 'v4.3.0'
   }
 
   npm_module { 'grunt-cli':
-    node_version => 'v0.10'
+    node_version => 'v4.3.0'
   }
 
 	boxen::project{ 'rocketmiles-web':
 		source => 'rocketmiles/rocketmiles-web'
 	}
+
+  boxen::project{ 'rocketmiles-frontend':
+    source => 'rocketmiles/rocketmiles-frontend'
+  }
 
   include homebrew
   package{
