@@ -15,8 +15,8 @@ class projects::rocketmiles {
 		source => 'rocketmiles/rocketmiles-app.wiki'
 	}
 
-  #  include mysql
-  #  mysql::db{ 'noonu': }
+  include mysql
+  mysql::db{ 'noonu': }
 
   boxen::project{ 'rocketmiles-email':
 		source => 'rocketmiles/rocketmiles-email'

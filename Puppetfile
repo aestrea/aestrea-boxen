@@ -80,7 +80,7 @@ github "zsh",         "1.0.0"
 #github "zshgitprompt","1.0.0"
 github "autojump",    "1.0.0"
 github "java",        "1.7.1"
-github "mysql",       "2.2.2"
+github "mysql",       "2.2.3"
 github "sdkman",      "1.0.0", :repo => "willmoorefyi/puppet-sdkman"
 github "github_for_mac", "1.0.2"
 
