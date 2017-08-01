@@ -25,6 +25,4 @@ class projects::hotelstorm {
 
   include homebrew
 
-  nodejs::version { '6.10.1': }
-
 }

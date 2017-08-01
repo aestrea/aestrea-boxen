@@ -4,16 +4,11 @@ class groups::dev_grails {
 
   # skipping java - weird shit
   #  include java
-  include gvm
-  gvm::groovy {'2.3.7': }
-  #gvm::grails {'2.3.7': }
-  gvm::grails {'2.3.9':
+  
+  include sdkman
+  sdkman::groovy {'2.4.12': }
+  sdkman::grails {'2.5.2':
     default => true
-  }
-
-  class { 'intellij':
-    edition => 'ultimate',
-    version => '14'
   }
 
 }
