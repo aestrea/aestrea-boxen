@@ -67,6 +67,7 @@ node default {
   nodejs::version { '0.10': }
   nodejs::version { '0.12': }
   nodejs::version { '4.3.0': }
+  nodejs::version { '6.10.1': }
 
   # default ruby versions
   ruby::version { '1.9.3': }
@@ -101,7 +102,7 @@ node default {
 
   #include spotify
   include better_touch_tools
-  include googledrive
+  #include googledrive
   include wget
 
   include projects::aestrea_osx
