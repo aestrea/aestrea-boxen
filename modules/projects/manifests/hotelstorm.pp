@@ -11,9 +11,6 @@ class projects::hotelstorm {
 		source => 'rocketmiles/hotelstorm-app'
 	}
 
-  include mysql
-  mysql::db{ 'noonu': }
-
   boxen::project{ 'hotelstorm-email':
 		source => 'rocketmiles/hotelstorm-email'
 	}
