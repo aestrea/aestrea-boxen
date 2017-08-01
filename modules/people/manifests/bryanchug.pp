@@ -2,6 +2,7 @@ class people::bryanchug {
 
   include projects::aestrea_osx
   include projects::rocketmiles
+  include projects::hotelstorm
   #include projects::atrax
 
   #include harvest
