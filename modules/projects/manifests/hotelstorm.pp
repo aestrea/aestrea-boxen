@@ -15,14 +15,6 @@ class projects::hotelstorm {
 		source => 'rocketmiles/hotelstorm-email'
 	}
 
-  npm_module { 'bower':
-    node_version => '4.3.0'
-  }
-
-  npm_module { 'grunt-cli':
-    node_version => '4.3.0'
-  }
-
   boxen::project{ 'hotelstorm-frontend':
     source => 'rocketmiles/hotelstorm-frontend'
   }
@@ -32,10 +24,6 @@ class projects::hotelstorm {
   }
 
   include homebrew
-  package{
-    'redis':
-      ensure => '2.8.9'
-  }
 
   nodejs::version { '6.10.1': }
 
