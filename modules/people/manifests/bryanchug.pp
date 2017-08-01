@@ -2,10 +2,10 @@ class people::bryanchug {
 
   include projects::aestrea_osx
   include projects::rocketmiles
-  include projects::atrax
+  #include projects::atrax
 
   #include harvest
-  include toggl
+  #include toggl
   include sketch
 
 	include git
@@ -26,20 +26,20 @@ class people::bryanchug {
     ensure  => directory
   }
 
-  repository { $sanctum:
-    source  => 'bryanchug/sanctum',
-    require => File[$my]
-  }
+  #repository { $sanctum:
+  #  source  => 'bryanchug/sanctum',
+  #  require => File[$my]
+  #}
 
-  repository { $dotfiles:
-    source  => 'bryanchug/dotfiles',
-    require => File[$my]
-  }
+  #repository { $dotfiles:
+  #  source  => 'bryanchug/dotfiles',
+  #  require => File[$my]
+  #}
 
-  repository { $importants:
-    source  => 'bryanchug/importants',
-    require => File[$my]
-  }
+  #repository { $importants:
+  #  source  => 'bryanchug/importants',
+  #  require => File[$my]
+  #}
 
 	include atom
 
@@ -47,6 +47,6 @@ class people::bryanchug {
   package{ 'ansible': }
   package{ 'tomcat': }
 
-  include minecraft
+  #include minecraft
   include steam
 }
