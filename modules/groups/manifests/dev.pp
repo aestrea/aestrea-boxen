@@ -7,6 +7,6 @@ class groups::dev {
   package { 'w3m': }
 
   # Dev
-  include github_for_mac
+  #include github_for_mac
 
 }
