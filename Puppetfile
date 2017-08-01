@@ -81,14 +81,14 @@ github "zsh",         "1.0.0"
 github "autojump",    "1.0.0"
 github "java",        "1.7.1"
 github "mysql",       "2.2.2"
-github "gvm",         "1.0.1", :repo => "Spantree/puppet-gvm"
+github "sdkman",      "1.0.0", :repo => "willmoorefyi/puppet-sdkman"
 github "github_for_mac", "1.0.2"
 
 # DRIVE
-github "googledrive", "1.0.2"
+#github "googledrive", "1.0.2"
 
 # IDE
-github "intellij",    "1.5.1", :repo => "dieterdemeyer/puppet-intellij"
+#github "intellij",    "1.5.1", :repo => "dieterdemeyer/puppet-intellij"
 github "atom",        "1.0.0"
 #github "visualvm",    "1.3.6", :repo => "loyal3/puppet-visualvm"
 
