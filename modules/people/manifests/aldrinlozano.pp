@@ -7,5 +7,6 @@ class people::aldrinlozano {
 
   include atom
 
+  include steam
 
 }
